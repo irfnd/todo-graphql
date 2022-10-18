@@ -2,6 +2,9 @@
 
 A simple todo list backend API using GraphQL and Standalone Apollo Server.
 
+[![Heroku](https://img.shields.io/badge/Running%20on%20Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://irfnd-todo-graphql.herokuapp.com/)
+[![Apollo Explorer](https://img.shields.io/badge/Test%20on%20Apollo%20Studio-311C87?&style=for-the-badge&logo=Apollo%20GraphQL&logoColor=white)](https://studio.apollographql.com/public/irfnd-todo-graphql/explorer?variant=current)
+
 ## Features
 
 - **Environment variables** : using [dotenv](https://github.com/motdotla/dotenv)
