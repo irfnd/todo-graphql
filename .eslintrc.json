@@ -1,0 +1,9 @@
+{
+	"extends": ["universe/native", "prettier"],
+	"rules": {
+		"prettier/prettier": "off",
+		"import/namespace": "off",
+		"import/order": "off",
+		"import/no-duplicates": "off"
+	}
+}

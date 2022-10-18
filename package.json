@@ -1,0 +1,22 @@
+{
+	"name": "todo-graphql",
+	"version": "1.0.0",
+	"description": "A Todo List GraphQL API",
+	"main": "app.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "nodemon app.js",
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"@apollo/server": "^4.0.1",
+		"graphql": "^16.6.0",
+		"graphql-tag": "^2.12.6"
+	},
+	"devDependencies": {
+		"eslint": "^8.25.0",
+		"eslint-config-universe": "^11.1.0",
+		"nodemon": "^2.0.20",
+		"prettier": "^2.7.1"
+	}
+}
