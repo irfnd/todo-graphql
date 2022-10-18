@@ -7,7 +7,7 @@ const typeDefs = require("./schemas");
 const resolvers = require("./resolvers");
 
 // Setup Server
-const server = new ApolloServer({ typeDefs, resolvers });
+const server = new ApolloServer({ typeDefs, resolvers, introspection: true });
 const port = process.env.PORT || 8000;
 
 // Run Server
