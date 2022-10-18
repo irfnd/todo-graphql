@@ -1,7 +1,8 @@
 {
 	"name": "todo-graphql",
 	"version": "1.0.0",
-	"description": "A Todo List GraphQL API",
+	"description": "A Todo List Backend GraphQL API",
+	"author": "irfnd <irfandiabimanyu@gmail.com>",
 	"main": "app.js",
 	"license": "MIT",
 	"scripts": {
