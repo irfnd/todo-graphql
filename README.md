@@ -4,6 +4,7 @@ A simple todo list backend API using GraphQL and Standalone Apollo Server.
 
 ## Features
 
+- **Environment variables** : using [dotenv](https://github.com/motdotla/dotenv)
 - **Server** : using [@apollo/server](https://github.com/apollographql/apollo-server)
 - **GraphQL** : using [graphql](https://github.com/graphql/graphql-js) and [graphql-tag](https://github.com/apollographql/graphql-tag)
 - **Linting** : using [eslint](https://eslint.org/) and [prettier](https://prettier.io/)
@@ -20,9 +21,10 @@ A simple todo list backend API using GraphQL and Standalone Apollo Server.
    ```
 3. Install all dependencies with
    `yarn` or `npm install`
-4. Run the server by typing `yarn start` or `npm run start`
-5. Server running successfully.
-6. To test server endpoint, you can open the server on your browser `http://localhost:8000` and you can explore the endpoint queries.
+4. You can specify server port. Create `.env` file by copy-paste `.env.example`. If you not specify the port, server will running on port 8000.
+5. Run the server by typing `yarn start` or `npm run start`
+6. Server running successfully.
+7. To test server endpoint, you can open the server on your browser `http://localhost:8000` and you can explore the endpoint queries.
 
 ## Contributing
 

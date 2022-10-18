@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { ApolloServer } = require("@apollo/server");
 const { startStandaloneServer } = require("@apollo/server/standalone");
 
@@ -7,18 +8,15 @@ const resolvers = require("./resolvers");
 
 // Setup Server
 const server = new ApolloServer({ typeDefs, resolvers });
+const port = process.env.PORT || 8000;
 
 // Run Server
 (async () => {
 	try {
-		const { url } = await startStandaloneServer(server, { listen: { port: 8000 } });
-		console.log();
-		console.log(`🚀 Server running at ${url}`);
-		console.log();
+		const { url } = await startStandaloneServer(server, { listen: { port } });
+		console.log(`\n🚀 Server running at ${url}\n`);
 	} catch (err) {
-		console.log();
-		console.log(`⚠️ Something went wrong!`);
-		console.log(err);
-		console.log();
+		console.log(`\n⚠️ Something went wrong!`);
+		console.log(err, "\n");
 	}
 })();
